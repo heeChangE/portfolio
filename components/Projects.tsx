@@ -35,10 +35,7 @@ const Projects = ({ projects }: Props) => {
             />
 
             <div className="space-y-10 px-0 md:px-0 max-w-6xl">
-              <h4 className="text-4xl font-semibold text-center">
-                <span className=" underline decoration-[#f7ab0a]/50">
-                  Case Projects {i + 1} of {projects.length}:
-                </span>{" "}
+              <h4 className="text-3xl font-semibold text-center">
                 {project?.title}
               </h4>
 
@@ -60,7 +57,7 @@ const Projects = ({ projects }: Props) => {
         ))}
       </div>
 
-      <div className="w-full absolute top-[30%] bg-[#f7ab0a]/10 left-0 h-[500px] -skew-y-12" />
+      <div className="w-full absolute top-[30%]" />
     </motion.div>
   );
 };
