@@ -40,7 +40,7 @@ const About = ({pageInfo}: Props) => {
       <div className="space-y-10 px-0 md:px-10">
         <h4 className="text-4xl font-semibold">
             Introduce{" "}
-          <span className="underline decoration-[#f7ab0a]/50">HeeChang</span>
+          <span className="underline decoration-[#f7ab0a]/50">유희창</span>
         </h4>
         <p className="text-base">
           {pageInfo?.backgroundInformation}
