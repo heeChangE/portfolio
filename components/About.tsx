@@ -43,7 +43,8 @@ const About = ({pageInfo}: Props) => {
           <span className="underline decoration-[#f7ab0a]/50">유희창</span>
         </h4>
         <p className="text-base">
-          {pageInfo?.backgroundInformation}
+          {pageInfo?.backgroundInformation} <br /><br />
+          생년월일 - 1992.07.21
         </p>
       </div>
     </motion.div>

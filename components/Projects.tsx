@@ -51,6 +51,7 @@ const Projects = ({ projects }: Props) => {
 
               <p className="text-lg text-center md:text-left">
                 {project?.summary}
+                {project?.linkToBuild}
               </p>
             </div>
           </div>
