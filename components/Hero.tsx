@@ -6,12 +6,16 @@ import { Cursor, Typewriter, useTypewriter } from "react-simple-typewriter";
 import BackgroundCircles from "./BackgroundCircles";
 
 type Props = {
-    pageInfo: PageInfo
+  pageInfo: PageInfo;
 };
 
-const Hero = ({pageInfo}: Props) => {
+const Hero = ({ pageInfo }: Props) => {
   const [text, count] = useTypewriter({
-    words: [`Hi, Im ${pageInfo?.name}`, "Wanna be React Developer", "Wanna be Web Designer"],
+    words: [
+      `Hi, Im ${pageInfo?.name}`,
+      "Wanna be React Developer",
+      "Wanna be Web Designer",
+    ],
     loop: true,
     delaySpeed: 2000,
   });
