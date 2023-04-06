@@ -49,7 +49,7 @@ export default function Header({ socials }: Props) {
             x: 0,
             opacity: 1,
             scale: 1,
-          }}  
+          }}
           transition={{ duration: 1.5 }}
           className="flex felx-row items-center text-gray-300 cursor-pointer"
         >
