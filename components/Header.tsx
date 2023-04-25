@@ -61,7 +61,7 @@ export default function Header({ socials }: Props) {
           />
           <p className="uppercase hidden md:inline-flex text-sm text-gray-400 ">
             CONTACT
-          </p>
+          </p> 
         </motion.div>
       </Link>
     </header>
